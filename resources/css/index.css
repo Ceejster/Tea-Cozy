@@ -1,0 +1,131 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 1;
+}
+a {
+    color: seashell;
+}
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+}
+.sidebar{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex: 1 1;
+}
+.middle {
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.locationss {
+    padding-right: 1rem;
+}
+.logo {
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.mission {
+    background: url("../pictures/img-mission-background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;    
+}
+
+.missionbanner {
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+}
+
+.teaofmonth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+.teaofmonthhead {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 50px;
+}
+.teapics {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.teapicsname {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.teaofmonth img {
+    width: 300px;
+    height: 200px;
+}
+#Locations {
+    background: url("../pictures/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    align-content: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 300px;
+    height: fit-content;
+    background-color: black;
+    margin: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.contact {
+    height: 200px;
+    width: 1000px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+}
